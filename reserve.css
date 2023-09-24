@@ -1,0 +1,17 @@
+#submit {
+    background-color: #d36943 ;
+    color: white;
+}
+
+.container-book {
+    background: url('images/pizza2.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@media all and (max-width: 1140px) {
+    .container-book {
+        max-width: 100%;
+        background-color: #ff9500 !important;
+        background-image: none;
+    }
+}
